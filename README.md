@@ -35,7 +35,7 @@ Setup Steps
    ```
 5. In the terminal, go to the project directory and run the app:
    ```bash
-   cd <directory-of-flask_app>
+   cd <directory-of-flask_app> #cd flask_app
    export FLASK_APP=app.py && flask run --host=0.0.0.0 --port=5000
    ```
    It should show that the website is running.
