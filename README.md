@@ -54,7 +54,9 @@ Issues Encountered and Solutions
 1. Permission Error: pip install
 Issue: externally-managed-environment error.
 Solution: Used "sudo apt install python3-flask && sudo apt install python3-django" in terminal
-2. Web app not accessible from host
+2. CSS file not being called by html and app.py
+Solution: Editing and correcting the html files and app.py to properly call css.
+3. Web app not accessible from host
 Issue: App ran, but couldn't access it via browser on the host machine.
 Solution: Ensured Flask runs on host='0.0.0.0', allowed port 5000 through ufw, and used a bridged adapter.
 
